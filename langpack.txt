@@ -1,4 +1,4 @@
-    Language               Repository           ABI highlights injections locals indents folds tags
+Language         Repository                     ABI highlights  injections  locals  indents  folds  tags
 Abl              usagi-coffee/tree-sitter-abl   15  ✅          ❌          ❌      ❌       ❌     ❌
 Abnf             grammars/abnf (vendored)       14  ❌          ❌          ❌      ❌       ❌     ❌
 Actionscript     Rileran/                       14  ❌          ❌          ❌      ❌       ❌     ❌

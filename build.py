@@ -11,7 +11,7 @@ from tree_sitter import Language
 
 # JSON file you saved earlier.  It must contain a list of objects like:
 #   [{"language": "Bash", "repository": "tree-sitter/tree-sitter-bash"}, ...]
-LANGUAGES_JSON = "langguages.json"
+LANGUAGES_JSON = "languages.json"
 
 # Original repos.txt is still used for cloning.  Each line must be:
 #   <git-url> <commit-hash>
@@ -28,7 +28,7 @@ VENDOR_DIR = "vendor"
 
 def load_language_paths():
     """
-    Read langguages.json and return a list of vendor paths suitable for
+    Read languages.json and return a list of vendor paths suitable for
     Language.build_library().
 
     Rules:
