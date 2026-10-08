@@ -25,6 +25,7 @@ VENDOR_DIR = "vendor"
 # Load language paths from JSON
 # ---------------------------------------------------------------------------
 
+
 def load_language_paths():
     """
     Read langguages.json and return a list of vendor paths suitable for
@@ -72,6 +73,7 @@ def load_language_paths():
 # Clone repositories (unchanged from original script)
 # ---------------------------------------------------------------------------
 
+
 def clone_repos():
     """
     Clone all repositories listed in repos.txt into vendor/.
@@ -84,9 +86,7 @@ def clone_repos():
             if not line or line.startswith("#"):
                 continue
             url, commit = line.split()
-            clone_directory = os.path.join(
-                VENDOR_DIR, url.rstrip("/").split("/")[-1]
-            )
+            clone_directory = os.path.join(VENDOR_DIR, url.rstrip("/").split("/")[-1])
             repos.append((url, commit, clone_directory))
 
     # During the build, this script runs several times, and only needs to
@@ -116,6 +116,7 @@ def clone_repos():
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
+
 
 def main():
     # 1. Clone all repositories listed in repos.txt

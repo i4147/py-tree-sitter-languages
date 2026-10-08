@@ -1,0 +1,7 @@
+https://gitlab.com/jirgn/tree-sitter-fusion
+https://github.com/11bit/tree-sitter-graphql
+https://github.com/lyndsysimon/tree-sitter-plantuml
+https://github.com/siraben/tree-sitter-promela
+https://github.com/ydewit/tree-sitter-reason
+https://github.com/nomograph-ai/tree-sitter-sysml
+https://github.com/grantmacken/tree-sitter-xquery
